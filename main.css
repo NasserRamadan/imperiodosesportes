@@ -1,0 +1,26 @@
+body {
+    font-family: "Kode Mono", monospace;
+}
+
+.navbar{
+    background-color: rgb(62, 62, 62);
+}
+
+.carousel-item img{
+    height: 600px;
+    width: 100%;
+}
+
+header h1 {
+    color: rgb(182, 240, 151);
+}
+
+.about-store {
+    background-color: rgb(181, 237, 237) ;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
